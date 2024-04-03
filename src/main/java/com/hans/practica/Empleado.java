@@ -1,3 +1,9 @@
+package com.hans.practica;
+
+/**
+ *
+ * @author hponte
+ */
 public abstract class Empleado {
     protected int id;
     protected String nombre;
@@ -52,6 +58,4 @@ public abstract class Empleado {
     }
 
     public abstract void calcularBono();
-
-
 }
